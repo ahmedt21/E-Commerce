@@ -1,0 +1,51 @@
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-weight: 500;
+  margin-right: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.cart-icon,
+.login-icon {
+  font-size: 1.5rem;
+  margin-left: 20px;
+  position: relative;
+}
+
+.cart-icon .badge {
+  background-color: #007bff;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 0.8rem;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  right: -10px;
+  text-align: center;
+  top: -10px;
+  width: 20px;
+}
+
+.cart-icon:hover .badge {
+  background-color: #fff;
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.login-icon:hover {
+  color: #007bff;
+}
